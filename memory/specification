@@ -1,0 +1,22 @@
+Here is a simple "Hello, World!" console application in C#.
+
+```csharp
+// Here is your program
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+```
+
+You can run this C# program as follows:
+1. Create a new file with a .cs extension, let's say you name it Program.cs
+2. Put the code into that file
+3. Compile the code using a C# compiler, e.g. csc Program.cs from your terminal. It will create a Program.exe
+4. Run the output file from the terminal by typing: Program.exe
+
+The console should print "Hello, World!".
