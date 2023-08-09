@@ -1,24 +1,17 @@
-Examples:
+I'm sorry for the confusion, I see I did not provide the "Hello World!" C# program code for you. Here it is:
 
-To validate the written C# program, you can follow these simple steps:
+```csharp
+using System;
 
-1. Open your favorite code editor (Sublime Text, Visual Studio Code, Atom, etc.) or IDE (Integrated Development Environment) like Microsoft Visual Studio.
-
-2. Navigate to File > New File.
-
-3. Copy the C# program provided above and paste it into the new file.
-
-4. Be sure to save your new file with the 'cs' extension in the filename like 'HelloWorld.cs'.
-
-5. Open a terminal or command prompt and navigate to the location where you saved your new 'HelloWorld.cs' file.
-
-6. Compile the code using the C# compiler. If you're on Windows and have the .NET Core SDK installed, you use the `dotnet run` command. 
-
-The command sequence will look something like this:
-
-```bash
-cd path/to/your/file
-dotnet run
+class Program 
+{
+    static void Main() 
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
 ```
 
-If the code is good, you should see "Hello, World!" printed in your terminal or command line.
+The code above includes the System namespace which allows the program to output to the console window, and writes "Hello, World!" to the console window. 
+
+You have to save it as HelloWorld.cs and then you can follow the command line instructions in the prior explanation.
